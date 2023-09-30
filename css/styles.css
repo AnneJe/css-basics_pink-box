@@ -8,18 +8,26 @@ body {
   font-family: system-ui;
 }
 
-/* put a selector here to select div elements (see index.html) */
-SELECTOR HERE {
+div {
   font-family: cursive;
-  padding: 8px;
+  /*Abstand vom linken und rechten Rand*/
+  padding: 100px;
+
+  /*der Text ist zu lang, mit overflow wird dieser versteckt*/
+  overflow: hidden;
 
   /* set the height and the width of the box to 150px */
+  width: 300px;
+  height: 300px;
 
   /* make the background color "hotpink" */
+  background-color: hotpink;
 
   /* make the text color "white" */
+  color: white;
 
   /* can you give the box round edges with an radius of 8px? */
+  border: 10px solid black;
 
   /* ✨ feel free to experiment! */
 }
